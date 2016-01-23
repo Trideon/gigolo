@@ -1,0 +1,14 @@
+
+<Files 403.shtml>
+order allow,deny
+allow from all
+</Files>
+
+deny from 69.16.194.21
+deny from 50.28.58.53
+deny from 69.16.230.90
+deny from 67.43.5.130
+
+# BEGIN WordPress
+
+# END WordPress

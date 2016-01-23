@@ -1,0 +1,20 @@
+Changelog Legend:
+----
+
+[+] = Added
+[*] = Changed
+[^] = Moved
+[=] = No Changes
+[x] = Deleted
+[!] = Bugs
+
+
+(2014-15-03)
+[*] Tidied code and removed whitespace
+
+(2014-01-28)
+[+] Added Custom Logo Upload to Theme Customizer.
+[+] Added Footer text to Theme Customizer.
+
+(2013-09-27)
+Initial Release

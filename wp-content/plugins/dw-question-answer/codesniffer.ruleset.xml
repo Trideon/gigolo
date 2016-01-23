@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<ruleset name="DW Question & Answer WordPress Plugin Coding Standards">
+	<!-- Set a description for this ruleset. -->
+	<description>A custom set of code standard rules to check for DW Question & Answer.</description>
+	<!-- Do not check in side library folder -->
+	<exclude-pattern>/lib/*</exclude-pattern>
+	<!-- Include the WordPress ruleset, with exclusions. -->
+	<rule ref="WordPress">
+		<exclude name="WordPress.XSS.EscapeOutput" />
+	</rule>
+</ruleset>

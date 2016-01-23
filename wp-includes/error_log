@@ -1,0 +1,2 @@
+[01-Jul-2015 12:10:08 UTC] PHP Fatal error:  Class 'Walker' not found in /home/gmagigolo/public_html/wp-includes/nav-menu-template.php on line 16
+[01-Jul-2015 12:10:11 UTC] PHP Fatal error:  Class 'WP_Widget' not found in /home/gmagigolo/public_html/wp-includes/default-widgets.php on line 14

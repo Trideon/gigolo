@@ -1,0 +1,12 @@
+[15-Apr-2015 17:22:16 UTC] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 524288 bytes) in /home/gmagigolo/public_html/wp-content/plugins/wordfence/lib/wfBrowscapCache.php on line 32806
+[16-Apr-2015 03:30:05 UTC] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 524288 bytes) in /home/gmagigolo/public_html/wp-content/plugins/wordfence/lib/wfBrowscapCache.php on line 32806
+[16-Apr-2015 03:33:30 UTC] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 524288 bytes) in /home/gmagigolo/public_html/wp-content/plugins/wordfence/lib/wfBrowscapCache.php on line 32806
+[28-Nov-2015 16:04:45 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'We received an error response when trying to contact the Wordfence scanning servers. The HTTP status code was [502]' in /home/gmagigolo/public_html/wp-content/plugins/wordfence/lib/wfAPI.php:89
+Stack trace:
+#0 /home/gmagigolo/public_html/wp-content/plugins/wordfence/lib/wfAPI.php(32): wfAPI->getURL('https://noc1.wo...', Array)
+#1 /home/gmagigolo/public_html/wp-content/plugins/wordfence/lib/wordfenceClass.php(149): wfAPI->call('ping_api_key')
+#2 [internal function]: wordfence::dailyCron()
+#3 /home/gmagigolo/public_html/wp-includes/plugin.php(579): call_user_func_array('wordfence::dail...', Array)
+#4 /home/gmagigolo/public_html/wp-cron.php(117): do_action_ref_array('wordfence_daily...', Array)
+#5 {main}
+  thrown in /home/gmagigolo/public_html/wp-content/plugins/wordfence/lib/wfAPI.php on line 89
